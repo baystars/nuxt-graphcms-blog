@@ -1,0 +1,78 @@
+# nuxt-auth
+
+* イロドリブログの検証用
+* 認証までは確認済み
+* 残り
+  * ブログ
+  * デプロイ
+
+## インストール
+
+インストール
+
+```shell
+npx create-nuxt-app nuxt-graphcms-blog
+```
+
+設定項目
+
+* Project name: nuxt-graphcms-blog
+* Programming Lauguage: Javascript
+* Package manager: Yarn
+* UI Framework: None
+* Nuxt.js modues: None
+* Liting tools: None
+* Testing framework: None
+* Rendering mode: Universal (SSR/SSG)
+* Deployment target: Server
+* Development tools: None
+* Continuous Integration: None
+* Version control system: Git
+
+サーバ起動
+
+```shell
+cd nuxt-graphcms-blog
+yarn dev
+```
+
+## 設定
+
+```shell
+yarn add @nuxtjs/bulma
+```
+
+nuxt.config.js
+
+```js
+  modules: [
+    '@nuxtjs/bulma'
+  ],
+```
+
+### nuxtjs/apollo
+
+```shell
+yarn add @nuxtjs/apollo
+yarn add apollo-link-http graphql
+yarn add graphql-tag
+```
+
+nuxt.config.js
+
+```js
+modules: [
+    '@nuxtjs/bulma',
+    '@nuxtjs/apollo'
+]
+```
+
+Settings>API Access>Public API permissions>Content from stage Published v
+
+```shell
+yarn add date-fns
+```
+
+## リンク
+
+* [yarn add date\-fns](https://titanwolf.org/Network/Articles/Article?AID=f4225949-a8f0-4557-804a-2e15540a3f51#gsc.tab=0)

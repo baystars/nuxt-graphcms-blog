@@ -1,0 +1,11 @@
+query {
+  posts(orderBy: createdAt_DESC, stage: PUBLISHED ) {
+    id
+    title
+    content
+    createdAt
+    thumbnail {
+      url
+    }
+  }
+}
