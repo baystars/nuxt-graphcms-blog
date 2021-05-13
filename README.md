@@ -67,7 +67,9 @@ modules: [
 ]
 ```
 
-Settings>API Access>Public API permissions>Content from stage Published v
+GrapCMSのWEB-API設定
+
+Settings>API Access>Public API permissions>Content from stage Publishedにチェック
 
 ```shell
 yarn add date-fns
@@ -75,4 +77,4 @@ yarn add date-fns
 
 ## リンク
 
-* [yarn add date\-fns](https://titanwolf.org/Network/Articles/Article?AID=f4225949-a8f0-4557-804a-2e15540a3f51#gsc.tab=0)
+* [To create a portfolio site in Nuxt\.js \+ GraphCMS \+ Netlify\(Others\-Community\)](https://titanwolf.org/Network/Articles/Article?AID=f4225949-a8f0-4557-804a-2e15540a3f51#gsc.tab=0)
